@@ -1,0 +1,225 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #fefaf8;
+  word-spacing: normal;
+  line-height: 1.25rem;
+  letter-spacing: 0.125rem;
+}
+
+/* colors */
+.bg-cl-primary {
+  background-color: #16213e;
+}
+.bg-cl-secondary {
+  background-color: #0f3460;
+}
+.bg-cl-tertiary {
+  background-color: #533483;
+}
+.bg-cl-quaternary {
+  background-color: #fb2576;
+}
+/* text color */
+.text-cl-wording {
+  color: #fefaf8;
+}
+.text-cl-primary {
+  color: #16213e;
+}
+.text-cl-secondary {
+  color: #0f3460;
+}
+.text-cl-tertiary {
+  color: #533483;
+}
+.text-cl-quaternary {
+  color: #fb2576;
+}
+/* heading */
+.title-h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+}
+.title-h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.875rem;
+}
+.title-h3 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.875rem;
+}
+.title-h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.title-h5 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.title-h6 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+/* subtitle */
+.subtitle-1 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.subtitle-2 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+.subtitle-3 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.subtitle-4 {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 2rem;
+}
+/* font size */
+.font-xxl {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.font-xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.font-lg {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.font-md {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.font-sm {
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.font-xs {
+  font-size: 0.625rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+/* button */
+.btn-w-full {
+  width: auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* mobile size*/
+@media (max-width: 575.98px) {
+  /* heading */
+  .title-h1 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  .title-h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .title-h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .title-h4 {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  .title-h5 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .title-h6 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  /* subtitle */
+  .subtitle-1 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .subtitle-2 {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  .subtitle-3 {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  .subtitle-4 {
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 1.5rem;
+  }
+  /* font size */
+  .font-xxl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .font-xl {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .font-lg {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .font-md {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+
+  .btn-w-full {
+    width: 100%;
+  }
+
+  .text-justify {
+    text-align: left;
+  }
+}
