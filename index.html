@@ -25,6 +25,7 @@
       class="container-fluid bg-cl-primary d-flex flex-column justify-content-center align-items-center min-vh-100"
     >
       <h1
+        id="home-title"
         data-aos="fade-up"
         data-aos-duration="500"
         class="text-cl-wording title-h1"
@@ -48,24 +49,28 @@
         class="w-100 my-4 d-sm-flex justify-content-sm-center align-items-sm-center d-block justify-content-center align-items-center"
       >
         <a
+          id="btn-home-about"
           href="#about"
           class="btn btn-outline-light mb-3 rounded-0 btn-w-full"
         >
           Siapa saya?</a
         >
         <a
+          id="btn-home-experience"
           href="#experience"
           class="btn btn-outline-light ms-md-3 mb-3 rounded-0 btn-w-full"
         >
           Pengalaman Kerja</a
         >
         <a
+          id="btn-home-skills"
           href="#skills"
           class="btn btn-outline-light ms-md-3 mb-3 rounded-0 btn-w-full"
         >
           Keahlian</a
         >
         <a
+          id="btn-home-work"
           href="#work"
           class="btn btn-outline-light mx-md-3 mb-3 rounded-0 btn-w-full"
         >
@@ -90,6 +95,7 @@
       />
 
       <h5
+        id="about-title"
         data-aos="fade-up"
         data-aos-duration="500"
         class="title-h5 text-cl-wording my-3"
@@ -97,6 +103,7 @@
         Siapa sebenarnya Tomi?
       </h5>
       <p
+        id="about-description"
         data-aos="fade-up"
         data-aos-duration="800"
         class="font-md text-justify text-cl-wording"
@@ -230,6 +237,7 @@
     >
       <div class="container">
         <h4
+          id="experience-title"
           data-aos="fade-up"
           data-aos-duration="500"
           class="text-cl-wording title-h4 text-uppercase"
@@ -245,7 +253,10 @@
               alt="logo privy"
               width="150"
             />
-            <h6 class="title-h6 text-cl-primary mb-0 mt-2">
+            <h6
+              id="experience-title-first"
+              class="title-h6 text-cl-primary mb-0 mt-2"
+            >
               Frontend Engineer
             </h6>
             <small class="font-sm"
@@ -264,9 +275,12 @@
                   d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
                 />
               </svg>
-              Jun 2021 - Saat ini</small
+              <span id="experience-date-first">Jun 2021 - Saat ini</span></small
             >
-            <p class="text-cl-primary mb-0 mt-2 font-md fst-italic">
+            <p
+              id="experience-description-first"
+              class="text-cl-primary mb-0 mt-2 font-md fst-italic"
+            >
               "Bekerja sebagai Frontend Engineer devisi Project di Privy"
             </p>
           </div>
@@ -280,7 +294,12 @@
               alt="logo privy"
               width="80"
             />
-            <h6 class="title-h6 text-cl-primary mb-0">Magang Teknisi</h6>
+            <h6
+              id="experience-title-second"
+              class="title-h6 text-cl-primary mb-0"
+            >
+              Magang Teknisi
+            </h6>
             <small class="font-sm"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -297,9 +316,14 @@
                   d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
                 />
               </svg>
-              Sep 2019 - Feb 2020</small
+              <span id="experience-date-second"
+                >Sep 2019 - Feb 2020</span
+              ></small
             >
-            <p class="text-cl-primary mb-0 mt-2 font-md fst-italic">
+            <p
+              id="experience-description-second"
+              class="text-cl-primary mb-0 mt-2 font-md fst-italic"
+            >
               "Mewakili Jurusan Fisika sebagai pemateri tentang Monitoring
               Kualitas Air Bak Pencucian Buah Nanas berbasis Internet of Things
               (IoT) dan magang sebagai teknisi di PT. Great Giant Foods Lampung"
@@ -316,9 +340,11 @@
     >
       <div class="container">
         <div data-aos="fade-up" data-aos-duration="500" class="w-100">
-          <h4 class="text-cl-primary title-h4 text-uppercase">Keahlian</h4>
+          <h4 id="skills-title" class="text-cl-primary title-h4 text-uppercase">
+            Keahlian
+          </h4>
 
-          <p class="subtitle-3 text-cl-primary">
+          <p id="skills-description" class="subtitle-3 text-cl-primary">
             Memiliki pengalaman lebih dari
             <strong class="text-cl-quaternary">1 tahun</strong> dalam
             menggunakan library/freamwork sebagai penunjang dalam pembuatan
@@ -440,9 +466,7 @@
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
             <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-              <div class="card-header text-center">
-                Ardunio IDE (Mikrokontroller)
-              </div>
+              <div class="card-header text-center">Ardunio IDE</div>
               <div
                 class="card-body d-flex justify-content-center align-items-center"
               >
@@ -466,6 +490,7 @@
     >
       <div class="container">
         <h4
+          id="work-title"
           data-aos="fade-up"
           data-aos-duration="500"
           class="text-cl-wording title-h4 text-uppercase"
@@ -512,7 +537,7 @@
                     />
                   </div>
                   <div class="col-12">
-                    <p class="text-cl-primary">
+                    <p id="work-desc-first" class="text-cl-primary">
                       <strong class="text-cl-primary">Kaul kopi</strong>
                       dirancang menggunakan
                       <strong class="text-cl-quaternary"
@@ -521,9 +546,8 @@
                       untuk mengatur text dan gambar yang akan disajikan pada
                       landing page, serta mempunyai fitur realtime chat
                       menggunakan
-                      <strong class="text-cl-quaternary">Tawk.to</strong> dan
                       <strong class="text-cl-quaternary"
-                        >google analitycs</strong
+                        >Tawk.to dan google analitycs</strong
                       >.
                     </p>
                   </div>
@@ -578,7 +602,7 @@
                     />
                   </div>
                   <div class="col-12">
-                    <p class="text-cl-primary">
+                    <p id="work-desc-second" class="text-cl-primary">
                       <strong class="text-cl-primary">Zulkit Project</strong>
                       dirancang menggunakan
                       <strong class="text-cl-quaternary">Vue 3</strong> dan
@@ -620,6 +644,11 @@
       class="bg-cl-secondary text-cl-wording font-sm text-center py-2"
     >
       &copy; 2022 - Tomi Mandala Putra
+
+      <select id="langselector" onchange="loadlang()" class="ms-2">
+        <option value="id">Indonesia</option>
+        <option value="en">English</option>
+      </select>
     </footer>
 
     <script
@@ -654,6 +683,7 @@
       }
     </script>
 
+    <script src="./js/language.js"></script>
     <script src="./js/rain.js"></script>
   </body>
 </html>
