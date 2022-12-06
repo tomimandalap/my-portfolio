@@ -24,7 +24,7 @@ body {
 #skills,
 #work {
   scroll-margin: 0;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   scroll-snap-stop: normal;
 }
 
