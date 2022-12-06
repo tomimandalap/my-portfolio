@@ -13,6 +13,10 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.7.1.min.js"
+    ></script>
   </head>
   <body>
     <!-- home -->
@@ -88,14 +92,14 @@
       <h5
         data-aos="fade-up"
         data-aos-duration="500"
-        class="title-h5 text-cl-secondary my-3"
+        class="title-h5 text-cl-wording my-3"
       >
         Siapa sebenarnya Tomi?
       </h5>
       <p
         data-aos="fade-up"
         data-aos-duration="800"
-        class="font-md text-justify text-cl-primary"
+        class="font-md text-justify text-cl-wording"
       >
         Tomi seorang
         <strong class="text-cl-quaternary">frontend web developer</strong> yang
@@ -121,7 +125,7 @@
       >
         <a
           href="./assets/cv.pdf"
-          class="btn btn-outline-dark me-2 rounded"
+          class="btn btn-outline-light me-2 rounded"
           download
         >
           <svg
@@ -142,7 +146,7 @@
           </svg>
         </a>
 
-        <a href="mailto:tommymandalaputra@gmail.com" class="btn btn-dark me-2">
+        <a href="mailto:tommymandalaputra@gmail.com" class="btn btn-light me-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -163,7 +167,7 @@
         <a
           href="https://api.whatsapp.com/send?phone=6282208427570"
           target="_blank"
-          class="btn btn-outline-dark me-2"
+          class="btn btn-outline-light me-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +186,7 @@
         <a
           href="https://github.com/tomimandalap"
           target="_blank"
-          class="btn btn-dark me-2"
+          class="btn btn-light me-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +205,7 @@
         <a
           href="https://www.linkedin.com/in/tomimandalaputra"
           target="_blank"
-          class="btn btn-outline-dark"
+          class="btn btn-outline-light"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -308,144 +312,147 @@
     <!-- my skills -->
     <div
       id="skills"
-      class="container d-flex flex-column justify-content-center align-items-center min-vh-100 py-5"
+      class="d-flex flex-column justify-content-center align-items-center min-vh-100 py-5 bg-light"
     >
-      <div data-aos="fade-up" data-aos-duration="500" class="w-100">
-        <h4 class="text-cl-primary title-h4 text-uppercase">Keahlian</h4>
+      <div class="container">
+        <div data-aos="fade-up" data-aos-duration="500" class="w-100">
+          <h4 class="text-cl-primary title-h4 text-uppercase">Keahlian</h4>
 
-        <p class="subtitle-3 text-cl-primary">
-          Memiliki pengalaman lebih dari
-          <strong class="text-warning">1 tahun</strong> dalam menggunakan
-          library/freamwork sebagai penunjang dalam pembuatan sebuah website.
-        </p>
-      </div>
+          <p class="subtitle-3 text-cl-primary">
+            Memiliki pengalaman lebih dari
+            <strong class="text-cl-quaternary">1 tahun</strong> dalam
+            menggunakan library/freamwork sebagai penunjang dalam pembuatan
+            sebuah website.
+          </p>
+        </div>
 
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">HTML CSS & JS</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://miro.medium.com/max/1400/1*l4xICbIIYlz1OTymWCoUTw.webp"
-                class="card-img-top rounded"
-                alt="keahlian html css js"
-                width="100"
-                height="150"
-              />
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">HTML CSS & JS</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://miro.medium.com/max/1400/1*l4xICbIIYlz1OTymWCoUTw.webp"
+                  class="card-img-top rounded"
+                  alt="keahlian html css js"
+                  width="100"
+                  height="150"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">Vue & NuxtJS</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://miro.medium.com/max/1400/1*mh8il3s3hB0Xdpx6ffQLTw.webp"
-                class="card-img-top rounded"
-                alt="keahlian vue nuxt"
-                width="200"
-                height="200"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">Vue & NuxtJS</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://miro.medium.com/max/1400/1*mh8il3s3hB0Xdpx6ffQLTw.webp"
+                  class="card-img-top rounded"
+                  alt="keahlian vue nuxt"
+                  width="200"
+                  height="200"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">React & NextJS</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://miro.medium.com/max/1400/1*z1U7SJeqK_JJXUYei5uD8w.webp"
-                class="card-img-top rounded"
-                alt="keahlian react next"
-                width="200"
-                height="250"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">React & NextJS</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://miro.medium.com/max/1400/1*z1U7SJeqK_JJXUYei5uD8w.webp"
+                  class="card-img-top rounded"
+                  alt="keahlian react next"
+                  width="200"
+                  height="250"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">Bootstrap</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://blog.getbootstrap.com/assets/brand/bootstrap-logo-shadow.png"
-                class="card-img-top rounded"
-                alt="keahlian bootstrap 5"
-                width="200"
-                height="200"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">Bootstrap</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://blog.getbootstrap.com/assets/brand/bootstrap-logo-shadow.png"
+                  class="card-img-top rounded"
+                  alt="keahlian bootstrap 5"
+                  width="200"
+                  height="200"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">Vuetify</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://camo.githubusercontent.com/be384df72ff1748336f5927f7116e79a37cbe1639a5b7db162be2d7afe350f87/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667"
-                class="card-img-top rounded"
-                alt="keahlian vuetify"
-                width="200"
-                height="200"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">Vuetify</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://camo.githubusercontent.com/be384df72ff1748336f5927f7116e79a37cbe1639a5b7db162be2d7afe350f87/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667"
+                  class="card-img-top rounded"
+                  alt="keahlian vuetify"
+                  width="200"
+                  height="200"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">Tailwind CSS</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"
-                class="card-img-top rounded"
-                alt="keahlian tailwind css"
-                width="200"
-                height="200"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">Tailwind CSS</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"
+                  class="card-img-top rounded"
+                  alt="keahlian tailwind css"
+                  width="200"
+                  height="200"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">Figma</div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://i.pinimg.com/originals/eb/e8/80/ebe880ba05add588e0518ad30d6fe1de.png"
-                class="card-img-top rounded"
-                alt="keahlian figma"
-                width="20"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">Figma</div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://i.pinimg.com/originals/eb/e8/80/ebe880ba05add588e0518ad30d6fe1de.png"
+                  class="card-img-top rounded"
+                  alt="keahlian figma"
+                  width="20"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-          <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
-            <div class="card-header text-center">
-              Ardunio IDE (Mikrokontroller)
-            </div>
-            <div
-              class="card-body d-flex justify-content-center align-items-center"
-            >
-              <img
-                src="https://camo.githubusercontent.com/a9e049ade1147226016feb1ab0024b7e09cf5e6ce7921aa9e7326942f98c71dd/687474703a2f2f636f6e74656e742e61726475696e6f2e63632f6272616e642f61726475696e6f2d636f6c6f722e737667"
-                class="card-img-top rounded"
-                alt="keahlian arduino (Mikrokontroller)"
-                width="20"
-              />
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" data-aos-duration="500" class="card h-100">
+              <div class="card-header text-center">
+                Ardunio IDE (Mikrokontroller)
+              </div>
+              <div
+                class="card-body d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://camo.githubusercontent.com/a9e049ade1147226016feb1ab0024b7e09cf5e6ce7921aa9e7326942f98c71dd/687474703a2f2f636f6e74656e742e61726475696e6f2e63632f6272616e642f61726475696e6f2d636f6c6f722e737667"
+                  class="card-img-top rounded"
+                  alt="keahlian arduino (Mikrokontroller)"
+                  width="20"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -592,7 +599,7 @@
       </div>
     </div>
 
-    <button onclick="topFunction()" id="myBtn" class="bg-cl-quaternary">
+    <button onclick="topFunction()" id="myBtn" class="bg-cl-primary">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="32"
@@ -626,19 +633,19 @@
 
       // Get the button
       let mybutton = document.getElementById("myBtn");
+      mybutton.style.display = "none";
 
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (document.documentElement.scrollTop > 400) {
+        if (
+          document.body.scrollTop > 400 ||
+          document.documentElement.scrollTop > 400
+        ) {
           mybutton.style.display = "block";
         } else {
           mybutton.style.display = "none";
         }
-      }
+      };
 
       // When the user clicks on the button, scroll to the top of the document
       function topFunction() {
@@ -646,5 +653,7 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
+
+    <script src="./js/rain.js"></script>
   </body>
 </html>
