@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
 }
 
 * {
@@ -15,6 +16,35 @@ body {
   word-spacing: normal;
   line-height: 1.25rem;
   letter-spacing: 0.125rem;
+}
+
+#home,
+#about,
+#experience,
+#skills,
+#work {
+  scroll-margin: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 3.6rem;
+  right: 1rem;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fefaf8;
+  box-shadow: 0 0 12px #fefaf899;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
 }
 
 /* colors */
@@ -141,6 +171,10 @@ body {
 
 /* mobile size*/
 @media (max-width: 575.98px) {
+  #myBtn {
+    padding: 0;
+  }
+
   /* heading */
   .title-h1 {
     font-weight: 700;
