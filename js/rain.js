@@ -14,8 +14,8 @@ $(document).ready(function () {
   function init() {
     document.body.appendChild(div);
     div.style.position = "fixed";
-    div.appendChild(canvas);
     div.style.zIndex = -1;
+    div.appendChild(canvas);
     UpdatePosition();
     create_rain();
     lightningTimer = 8000.0;
